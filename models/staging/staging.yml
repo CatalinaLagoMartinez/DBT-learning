@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: dvdrental
+    database: dvdrental
+    schema: public
+    tables:
+      - name: category
+      - name: inventory
+      - name: customer
+      - name: film_category
+      - name: rental
+      - name: film
+      - name: payment
+      - name: address
+      - name: staff
+      - name: city
+      - name: language
+      - name: country
+      - name: store
+      - name: actor
+      - name: film_actor 
+
+models:
+  - name: stg_category
+  - name: stg_inventory
+  - name: stg_customer
+  - name: stg_film_category
+  - name: stg_rental
+  - name: stg_film
+  - name: stg_payment
+  - name: stg_address
+  - name: stg_staff
+  - name: stg_city
+  - name: stg_language
+  - name: stg_country
+  - name: stg_store
+  - name: stg_actor
+  - name: stg_film_actor 
